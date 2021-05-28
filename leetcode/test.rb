@@ -6,4 +6,3 @@ puts(hash[:me])
 puts(hash[:bruh])
 puts(hash[:bird])
 puts(hash["hey"])
-
