@@ -17,4 +17,13 @@
 #     candies.map{|x| x+extra_candies >= max_num ? true : false }
 # end
 # kids_with_candies([2,3,5,1,3],2)
-puts [3,2,1].max(3)
+# puts [3,2,1].max(3)
+def is_palindrome(num)
+    res=0
+    while(num>0) do
+        res = res*10 + (num%10)
+        num/=10
+    end
+    puts res
+end
+is_palindrome(123)
